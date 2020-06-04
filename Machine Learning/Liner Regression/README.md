@@ -45,7 +45,7 @@ w叫做x的系数，b叫做偏置项。
 
 - 控制参数幅度，不让模型“无法无天”。
 - 限制参数搜索空间
-- 解决欠拟合与过拟合的问题（参考：https://zhuanlan.zhihu.com/p/29707029， https://marian5211.github.io/2018/03/08/%E3%80%90%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E3%80%91%E8%BF%87%E6%8B%9F%E5%90%88%E3%80%81%E6%AC%A0%E6%8B%9F%E5%90%88%E5%8F%8A%E5%85%B6%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/）
+- 解决欠拟合与过拟合的问题（参考：https://zhuanlan.zhihu.com/p/29707029 ， https://marian5211.github.io/2018/03/08/%E3%80%90%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E3%80%91%E8%BF%87%E6%8B%9F%E5%90%88%E3%80%81%E6%AC%A0%E6%8B%9F%E5%90%88%E5%8F%8A%E5%85%B6%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/）
 
 ### 5.1 什么是L2正则化(岭回归)
 
@@ -101,7 +101,7 @@ ElasticNet在我们发现用Lasso回归太过(太多特征被稀疏为0),而岭�
 
 我们假设线性回归的噪声服从均值为0的正态分布。 当噪声符合正态分布N(0,delta^2)时，因变量则符合正态分布N(ax(i)+b,delta^2)，其中预测函数y=ax(i)+b。这个结论可以由正态分布的概率密度函数得到。也就是说当噪声符合正态分布时，其因变量必然也符合正态分布。 
 
-在用线性回归模型拟合数据之前，首先要求数据应符合或近似符合正态分布，否则得到的拟合函数不正确。（参考：https://blog.csdn.net/u010462995/article/details/70847146， http://muchong.com/html/201206/4645325.html）
+在用线性回归模型拟合数据之前，首先要求数据应符合或近似符合正态分布，否则得到的拟合函数不正确。（参考：https://blog.csdn.net/u010462995/article/details/70847146 ， http://muchong.com/html/201206/4645325.html）
 
 ## 7. [代码实现](https://github.com/NLP-LOVE/ML-NLP/tree/master/Machine%20Learning/Liner%20Regression/demo)
 
