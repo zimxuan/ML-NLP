@@ -36,8 +36,8 @@ w叫做x的系数，b叫做偏置项。
 ![](https://latex.codecogs.com/gif.latex?J=\frac{1}{2m}\sum^{i=1}_{m}(y^{'}-y)^2)
 
 利用**梯度下降法**找到最小值点，也就是最小误差，最后把 w 和 b 给求出来。
-- 为什么要用平方形式？（参考：https://blog.csdn.net/saltriver/article/details/57544704）
-- 为什么要除以2m？（为了计算方便，参考：https://blog.csdn.net/u010106759/article/details/50380442）
+- 为什么要用平方形式？（参考：https://blog.csdn.net/saltriver/article/details/57544704 ）
+- 为什么要除以2m？（为了计算方便，参考：https://blog.csdn.net/u010106759/article/details/50380442 ）
 
 ## 5. 过拟合、欠拟合如何解决
 
