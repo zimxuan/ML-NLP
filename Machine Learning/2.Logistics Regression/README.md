@@ -42,7 +42,8 @@
 
 最后按照梯度下降法一样，求解极小值点，得到想要的模型效果。
 
-将公式合并：cost(h_{\theta }(x), y) = \sum_{i=1}^{m}-y_{i}log(h_{\theta }(x)) -(1-y_{i})log(1-h_{\theta }(x))
+将公式合并：
+![](https://latex.codecogs.com/gif.latex?cost(h_{\theta }(x), y) = \sum_{i=1}^{m}-y_{i}log(h_{\theta }(x)) -(1-y_{i})log(1-h_{\theta }(x))）
 
 ## 4.可以进行多分类吗？
 
