@@ -43,7 +43,7 @@
 最后按照梯度下降法一样，求解极小值点，得到想要的模型效果。
 
 将公式合并：
-![](https://latex.codecogs.com/gif.latex?cost%28h_%7B%5Ctheta%20%7D%28x%29%2C%20y%29%20%3D%20%5Csum_%7Bi%3D1%7D%5E%7Bm%7D-y_%7Bi%7Dlog%28h_%7B%5Ctheta%20%7D%28x%29%29%20-%281-y_%7Bi%7D%29log%281-h_%7B%5Ctheta%20%7D%28x%29%29）
+![image](https://latex.codecogs.com/gif.latex?cost%28h_%7B%5Ctheta%20%7D%28x%29%2C%20y%29%20%3D%20%5Csum_%7Bi%3D1%7D%5E%7Bm%7D-y_%7Bi%7Dlog%28h_%7B%5Ctheta%20%7D%28x%29%29%20-%281-y_%7Bi%7D%29log%281-h_%7B%5Ctheta%20%7D%28x%29%29）
 
 ## 4.可以进行多分类吗？
 
